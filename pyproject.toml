@@ -2,12 +2,11 @@
 name = "piai"
 version = "0.1.0"
 description = "Unified LLM abstraction for Python — port of @earendil-works/pi-ai"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 
 dependencies = [
     "anthropic>=0.40.0",
     "openai>=1.55.0",
-    "partial-json>=0.1.7",
     "jsonschema>=4.0.0",
     "pydantic>=2.0.0",
 ]
